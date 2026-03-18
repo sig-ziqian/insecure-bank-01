@@ -8,8 +8,8 @@
 	<name>Insecure Bank</name>
 	<!-- Adding a comment-->
 	<properties>
-		<org.springframework-version>4.2.3.RELEASE</org.springframework-version>
-		<org.spring-security-version>4.0.3.RELEASE</org.spring-security-version>
+		<org.springframework-version>4.2.5.RELEASE</org.springframework-version>
+		<org.spring-security-version>4.2.20</org.spring-security-version>
 		<org.slf4j-version>1.7.13</org.slf4j-version>
 		<jaxb.version>2.3.0</jaxb.version>
         	<activation.version>1.1.1</activation.version>
@@ -165,7 +165,7 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
-			<version>5.3.0.Final</version>
+			<version>5.3.20.SP2-redhat-00001</version>
 		</dependency>
 		<!-- Database -->
 		<dependency>
@@ -176,13 +176,13 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-			<version>9.2-1004-jdbc4</version>
+			<version>9.4-1206-jdbc42</version>
 		</dependency>
 		<!-- HSQLDB -->
 		<dependency>
 			<groupId>org.hsqldb</groupId>
 			<artifactId>hsqldb</artifactId>
-			<version>2.3.4</version>
+			<version>2.7.4</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-dbcp</groupId>
@@ -214,7 +214,7 @@
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
-			<version>1.2.17</version>
+			<version>1.2.17.norce</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
